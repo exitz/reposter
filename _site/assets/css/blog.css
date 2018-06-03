@@ -1,0 +1,84 @@
+.nav-scroller {
+  padding-top: 10px;
+   text-decoration-color: black;
+   font-size: 18px;
+   }
+
+.col-md-8 {
+  background-color:
+}
+
+}
+
+.blog-main {
+padding-right: 100px;
+padding-top: 50px;
+margin-top: 25px
+
+}
+
+
+.blog-header-logo {
+  font-size: 35px;
+
+  }
+
+}
+.d-flex {
+;
+  margin: px100
+}
+
+.blog-header {
+  text-align: left;
+text-color: purple;
+
+}
+.blog-footer {
+
+  padding-top: 10px;
+  text-align: center;
+}
+
+.btn-primary {
+	box-shadow: 0 3px 0 0 black;
+  background-color: grey!important;
+}
+
+.md-4 {
+
+align-self: center;
+}
+
+.headimage {
+
+  align-left
+
+
+  }
+
+
+.flex-mb  {
+padding-left: 200px;
+align-items: left;
+
+}
+
+.container {
+  max-width: 750px;
+}
+
+.div.ytcontainer {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.iframe.ytframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
