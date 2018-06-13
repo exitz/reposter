@@ -11,7 +11,7 @@ author: "Jason C. Willey"
 
 
 
-Conky is a system monitor software for the X Window System. It is available for GNU/Linux and FreeBSD. It is used to monitor system variables including CPU, memory, swap, disk space, temperature, top, upload, download, system messages, and much more.  Conky is extremely configurable, however, the configuration can be a little hard to understand.
+##Conky is a system monitor software for the X Window System. It is available for GNU/Linux and FreeBSD. It is used to monitor system variables including CPU, memory, swap, disk space, temperature, top, upload, download, system messages, and much more.  Conky is extremely configurable, however, the configuration can be a little hard to understand.
 
 <a
 
