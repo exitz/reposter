@@ -1,22 +1,18 @@
 ---
-layout: page
+layout: default
 ---
-
-
-  <div class="container">
+<div class="container">
 	<div class="row">
-		<div class="col-sm-6 vidcontainer">
-      {%- for video in site.videos limit:6 -%}
-			<h3>
-			 	{{ video.title }}
-			</h2><br>
-         {%- if videos.youtubeId == True -%}
-			<p>
-        <iframe width="500" height=380" src="https://www.youtube.com/embed/{{video.youtubeId}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    			<p>
-         {%- endif -%}
-				<a class="btn" href= "{{video.url}}">View details »</a>
-			</p>
+		<div class="col-sm-12">
+			<div class="jumbotron">
+				<h2>
+					Hello, world!
+				</h2>
+				<p>
+					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+				</p>
+			</div>
 		</div>
-		<div class="col-sm-6 vidcontainer">
-      {%- endfor -%}

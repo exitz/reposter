@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+
+
+  <div class="container">
+	<div class="row">
+		<div class="col-sm-6 vidcontainer">
+
+
+      {%- for image in site.photos -%}
+			<h3>
+			 	{{ image.title }}
+			</h3><br>
+
+			<p>
+        <img src="{{site.baseurl}}/photos/{{image.image}}" width="500" height="380" />
+      </p>
+
+
+				<a class="btn btn-secondary btn-sm" href= "{{site.baseurl}}/{{image.download}}">View details »</a>
+
+		</div><br>
+		<div class="col-sm-6 vidcontainer">
+      {%- endfor -%}

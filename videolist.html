@@ -1,22 +1,25 @@
 ---
-title: video library
-description: "Array of every video hosted on the site"
-catagory: videos
-layout: default
-
-
+layout: page
 ---
-{%- for video in site.videos -%}
-<div>
-    <div class="ytcontainer">
-      <ul>
-          <li>{{ video.title }}</li>
-        </li>{{ video.description }}</li>
-      </ul>
 
-      {%- if videos.youtubeId == True -%}
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/{{video.youtubeId}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      {%- endif -%}
-    </div>
-</div>
-{%- endfor -%}
+
+  <div class="container">
+	<div class="row">
+		<div class="col-sm-6 vidcontainer">
+
+
+      {%- for video in site.videos limit:10 -%}
+			<h3>
+			 	{{ video.title }}
+			</h2><br>
+         {%- if videos.youtubeId == True -%}
+			<p>
+        <iframe width="500" height=380" src="https://www.youtube.com/embed/{{video.youtubeId}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </p>
+
+         {%- endif -%}
+				<a class="btn" href= "{{video.url}}">View details »</a>
+
+		</div>
+		<div class="col-sm-6 vidcontainer">
+      {%- endfor -%}
