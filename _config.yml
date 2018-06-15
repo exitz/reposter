@@ -36,3 +36,11 @@ collections:
   photos:
     output: true
     permalink: /photos/:path/
+
+
+ -
+    scope:
+      path: "man/page"
+    values:
+      layout: Page
+      language: man

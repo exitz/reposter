@@ -6,13 +6,19 @@
 
 .jumbotron {
   background-color: #32383e!important;
+  margin-top: 50px!important;
+  border-color: white!important;
 }
-.nav-scroller {
+.navbar {
   padding-top: 10px;
-   text-decoration-color: black;
-   font-size: 18px;
    }
 
+
+.vidcontainer {
+
+  padding: 20px;
+  border-color: white;
+}
 .footer {
 
 margin-top: 50px!important;

@@ -3,22 +3,20 @@
 
   margin-top: 75px;
 }
+.vidcontainer{
+  margin-top:  250px!important;
+}
 
 .jumbotron {
   background-color: #32383e!important;
-  margin-top: 50px!important;
-  border-color: white!important;
+  margin-top: 25px!important;
 }
-.navbar {
+.nav-scroller {
   padding-top: 10px;
+   text-decoration-color: black;
+   font-size: 18px;
    }
 
-
-.vidcontainer {
-
-  padding: 20px;
-  border-color: white;
-}
 .footer {
 
 margin-top: 50px!important;

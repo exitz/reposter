@@ -1,3 +1,22 @@
 ---
-layout: home.html
+layout: page
 ---
+
+
+  <div class="container">
+	<div class="row">
+		<div class="col-sm-6 vidcontainer">
+      {%- for video in site.videos limit:6 -%}
+			<h3>
+			 	{{ video.title }}
+			</h2><br>
+         {%- if videos.youtubeId == True -%}
+			<p>
+        <iframe width="500" height=380" src="https://www.youtube.com/embed/{{video.youtubeId}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    			<p>
+         {%- endif -%}
+				<a class="btn" href= "{{video.url}}">View details »</a>
+			</p>
+		</div>
+		<div class="col-sm-6 vidcontainer">
+      {%- endfor -%}
